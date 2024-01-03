@@ -1,6 +1,7 @@
-def sayText(text):
-    for i in range(15):
+def sayText(text, times):
+    for i in range(times):
         print(text)
 
 hello = "Hello"
-sayText(hello)
+number = 15
+sayText(hello, times)
